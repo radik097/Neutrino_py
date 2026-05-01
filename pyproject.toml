@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neutrino-py"
+version = "0.1.0"
+description = "Python module prototype for NEUTRINO server, client, and diagnostics on Windows x86/x64."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+authors = [
+  {name = "NEUTRINO contributors"}
+]
+dependencies = []
+
+[project.scripts]
+neutrino-py = "neutrino_py.__main__:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
