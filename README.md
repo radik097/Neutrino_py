@@ -8,6 +8,8 @@
 **Status:** Open for implementations
 **Language:** Any. Seriously, any.
 
+**Python module release:** [RAEADME_python_release.md](RAEADME_python_release.md)
+
 ---
 
 ## ⚡ TL;DR для тех, кто понимает
@@ -44,6 +46,7 @@ NEUTRINO — это не VPN и не прокси.
 15. [Как контрибьютить](#15-как-контрибьютить)
 16. [FAQ](#16-faq)
 17. [Лицензия](#17-лицензия)
+18. [Python module release](RAEADME_python_release.md)
 
 ---
 
